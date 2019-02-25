@@ -1,0 +1,90 @@
+/* 产品介绍 */
+.products {
+  height: 450px;
+  background: url(../images/bg_0524.jpg) no-repeat;
+  background-attachment: fixed 300;
+  /* width: 100%; */
+  background-size: 1700px;
+  padding-top: 180px;
+}
+
+.products.second {
+  background: url(../images/bg_story_0524.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 1700px;
+}
+.content {
+  overflow: hidden;
+}
+.products ul {
+  width: 80em;
+  margin-left: 100px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 17px;
+  padding-bottom: 200px;
+  z-index: 1;
+}
+
+.products ul li {
+  border: 1px solid #ccc;
+  width: 260px;
+  height: 157px;
+  float: left;
+  margin-right: 8px;
+}
+
+/* .products ul li img {
+ 
+
+} */
+
+.p_text {
+  font-size: 16px;
+  color: #613b11;
+  display: block;
+  padding-left: 10px;
+}
+
+.details {
+  height: 200px;
+  width: 233px;
+  background: url(../images/story_typebg1_0524.png) no-repeat;
+  position: absolute;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+  top: 160px;
+  margin-left: -16px;
+  z-index: 1;
+  padding-left: 32px;
+  padding-right: 30px;
+  display: none;
+}
+
+.details.active {
+  display: block;
+}
+
+.details h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #613b11;
+
+}
+
+.details p {
+  margin-top: 22px;
+  font: 12px '宋体';
+  line-height: 16px;
+  color: #613b11;
+
+}
+
+.details span {
+  font: 12px '宋体';
+  color: #613b11;
+  margin-left: 10px;
+  bottom: 35px;
+  position: absolute;
+}

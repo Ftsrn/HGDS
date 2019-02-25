@@ -1,0 +1,49 @@
+.foot {
+  height: 110px;
+  /* width: 100%; */
+}
+.foot_nav {
+  height: 60px;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.foot_m_t {
+  height: 28px;
+  overflow: hidden;
+}
+
+.foot_m_t li  a{
+  font: 700 12px '微软雅黑';
+  line-height: 28px;
+  color: black;
+  float: left;
+  margin: 0px 45px;
+}
+.foot_m {
+  overflow: hidden;
+  width: 92%;
+  
+}
+/* .foot_m_i {
+  overflow: hidden;
+
+} */
+.foot_m i {
+  display: block;
+  height: 4px;
+  /* width: 80%; */
+  background: url(../images/line_pos.gif) ;
+}
+.foot_m_b a{
+  color: #613b11;
+  margin: 0px 30px;
+  
+}
+.foot_m_b .parting {
+  margin-top: 7px;
+  margin-right: 30px;
+}
+.foot_bottom {
+  height: 50px;
+  background: url(../images/footer_bg.jpg)
+}

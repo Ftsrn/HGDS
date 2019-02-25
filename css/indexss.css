@@ -1,0 +1,25 @@
+ 
+  .slide .slide1 {
+    width: 300px;
+    height: 188px;
+    top: 35px;
+    left: 0;
+    opacity: 0.8;
+    z-index: 3;
+  } 
+  .slide .slide2 {
+    width: 400px;
+    height: 250px;
+    top: 60px;
+    left: 100px;
+    opacity: 1;
+    z-index: 4;
+  } 
+  .slide .slide3 {
+    width: 300px;
+    height: 188px;
+    top: 35px;
+    left: 300px;
+    opacity: 0.8;
+    z-index: 3;
+  }  

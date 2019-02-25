@@ -1,0 +1,47 @@
+/* 块元素 */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,li,dd,dt,p {
+    padding:0px;
+    margin:0px;
+    list-style: none;
+
+    font-size:18px;
+    font-family: '楷体';
+    color:#666;
+    list-style: none;
+}
+/* 行元素 */
+a {
+    text-decoration: none;
+    color:#666;
+}
+/* 行内块元素 */
+input,span {
+    border:0 none;
+    outline-style:none;
+    padding:0;
+}
+a:hover {
+    color:red;
+}
+/* 清除浮动 */
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+    height:0;
+    line-height: 0px;
+    visibility: hidden;
+}
+.clearfix {
+    zoom:1;
+}
+.w {
+    width:1230px;
+    margin:0 auto;
+}
+.left {
+    float: left;
+}
+.rigth {
+    float:right;
+} 

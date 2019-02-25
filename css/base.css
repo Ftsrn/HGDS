@@ -1,0 +1,42 @@
+body,p,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #333333;
+	font-size: 14px;
+
+}
+a {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	color: #f10215 ;
+}
+input,img {
+	border-style: none;
+	padding: 0;
+	outline-style: none;
+	vertical-align: top;
+}
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix::after {
+	content: ".";
+	display: inline-block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.left1 {
+	float: left;
+}
+.right1 {
+	float: right;
+}

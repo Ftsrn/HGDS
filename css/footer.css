@@ -1,0 +1,55 @@
+﻿ /* 底部开始 */
+ .xu_footer {
+    height: 500px;
+}
+/* 头 */
+.xu_footer .xfooter_top {
+    height: 40px; 
+   background-color: #000; 
+   line-height: 40px;
+
+}
+.xu_footer .xfooter_top ul {
+    /* height: 40px; */
+    margin-left:270px;
+    /* line-height: 40px; */
+}
+.xu_footer .xfooter_top ul li {
+    float: left;
+    margin-right: 40px;
+    color:#fff;
+}
+.xu_footer .xfooter_top ul li span {
+    display: block;
+    height: 20px;
+    width:1px;
+    background-color: #fff;
+    margin-top:10px;
+}
+.xfooter_top .w>img {
+    text-align:center;
+}
+.biaozhi {
+    height:73px;
+    text-align: center;
+    margin-top:9px;
+    border-bottom:1px solid slategray; 
+}
+.x_one {
+    border-bottom:1px solid  slategray;
+    text-align: center;
+}
+
+.xu_mid .w dl {
+    float: left;
+    margin-right:100px;
+    
+}
+.xu_mid .w dl dt {
+    margin-top:50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color:#000;
+}
+
+

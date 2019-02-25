@@ -1,0 +1,338 @@
+
+.header {
+	height: 99px;
+	text-align: center;
+	background-color: #5f0024;
+	border-bottom: 2px solid #d8cf72;
+}
+
+.header .banner i{
+	width: 65px;
+	 height: 65px;
+	 display: inline-block;
+	 margin-left: 12px;
+	 margin-top: 5px;
+	 border-radius: 50%;
+	 background-color: #F4F4F4;
+}
+
+.header .banner{
+	position: relative;
+	line-height: 24px;
+}
+
+.header .banner li{
+	float: left;
+	list-style: none;
+}
+
+
+.header  .headle li a{
+	display: block;
+	margin-left: 10px;
+	color: #d8cf72;
+}
+
+.header  .headri li a{
+	display: block;
+	margin-left: 15px;
+	color: #d8cf72;
+}
+
+.header  .headri li{
+	margin-right: 100px;
+}
+
+.header  .headle li{
+	margin-left: 100px;
+}
+
+.header .headle{
+	float: left;
+	font-size: 22px;
+}
+.header .headri{
+	float: right;
+	font-size: 22px;
+}
+
+
+
+.header .logo {
+	 position: relative;
+}
+
+.header .logo a {
+	 width: 170px;
+	 height: 99px;
+	 display: inline-block;
+	 background: url(../images/header.jpg) no-repeat;
+	 text-align: center;
+}
+
+.banner .eee{
+	background: url(../images/cake1.jpg) no-repeat -800px -843px;
+}
+
+.banner .fff{
+	background: url(../images/cake1.jpg) no-repeat -366px -944px;
+}
+
+.banner .ggg{
+	background: url(../images/lw.jpg) no-repeat -282px -626px;
+}
+
+.banner .hhh{
+	background: url(../images/tm.png) no-repeat -274px -3px;
+}
+
+.banner .iii{
+	background: url(../images/541.jpg) no-repeat;
+}
+
+.banner .jjj{
+	background: url(../images/lw.jpg) no-repeat -165px -749px;
+}
+/* 主体登录部分 */
+.mainlogin {
+	 background-color: #e9827b;
+	 height: 500px;
+	 border-bottom: 2px solid #d8cf72;
+}
+.mainlogin .w {
+	 height: 500px;
+	 background: url(../images/bg3.jpg) no-repeat;
+	 position: relative;
+	 padding-right: 150px;
+}
+
+.login {
+	 width: 346px;
+	 height: 370px;
+	 border: 1px solid #e9827b;
+	 border-radius: 20%;
+	 background:url(../images/bg22.jpg);
+	 position: absolute;
+	 right: 0;
+	 top: 40px;
+}
+
+.login img{
+	height: 100%;
+}
+
+.userlogin {
+	 height: 54px;
+	 border-bottom: #F4F4F4 1px solid;
+}
+
+.llogin {
+	 float: left;
+}
+.llogin a{
+	height: 54px;
+	width: 171px;
+	display: inline-block;
+	line-height: 54px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.line {
+	 width: 1px;
+	 height: 20px;
+	 background-color: #F4F4F4;
+	 float: left;
+	 margin-top: 18px;
+}
+
+.rlogin {
+	 float: left;
+}
+
+.rlogin a {
+	height: 54px;
+	width: 171px;
+	display: inline-block;
+	line-height: 54px;
+	font-size: 20px;
+	text-align: center;
+	color: #FCFCFC;
+	font-weight: 700;
+}
+
+/* 用户名 */
+.username,.pwd {
+
+	 border:  1px solid #BDBDBD;
+	 margin-top: 35px;
+	 margin-bottom: 20px;
+	 margin-left: 20px;
+	 margin-right: 20px;
+	 position: relative;
+}
+
+
+.username label {
+	 width: 38px;
+	 height: 39px;
+	 display: inline-block;
+	 float: left;
+	 border-right: 1px solid #BDBDBD;
+	 background: url(../images/abc1.png) no-repeat -55px -196px;
+}
+.username input,.pwd input {
+	 float: left;
+	 height: 39px;
+	 width: 254px;
+	 padding-left: 11px;
+	 color: #956d3e;
+	 background-color: #F4F4F4;
+	 opacity: 0.8;
+}
+
+.username i,.pwd i {
+	 width: 13px;
+	 height: 13px;
+	 display: block;
+	 background: url(../images/pwd-icons-new.png) no-repeat -104px 0;
+	 position: absolute;
+	 right: 10px;
+	 top: 12px;
+	 cursor: pointer;
+}
+
+.pwd label {
+	 width: 38px;
+	 height: 39px;
+	 display: inline-block;
+	 float: left;
+	 border-right: 1px solid #BDBDBD;
+	 background: url(../images/abc1.png) no-repeat -95px -196px;
+}
+
+
+/* 登录 */
+.login-btn {
+	 border:  1px solid #CB2A2D;
+	 width: 304px;
+	 margin-top: 15px;
+	 margin-left: 20px;
+	 line-height: 33px;
+	 text-align: center;
+}
+
+.login-btn a {
+	 width:  305px;
+	 height: 36px;
+	 background-color: #5f0024;
+	 display: block;
+	 color: rgb(224, 166, 5);
+	 font-size: 22px;
+	 word-spacing: 1em;
+}
+
+
+/* 链接 */
+.links {
+	 height: 50px;
+	 border-top: 1px solid #fff200;
+	 margin-top: 35px;
+	 line-height: 50px;
+	 padding-left: 20px;
+}
+
+.links a{
+	 padding:  -2 15px;
+	 font-size: 15px;
+	 color: #956d3e;
+	 font-weight: 700;
+}
+
+.links .register {
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	 float: right;
+	 margin-right: 25px;
+	 position: relative;
+}
+.links .register:hover {
+	 text-decoration: underline;
+}
+
+
+.links .aaa{
+	width: 38px;
+	 height: 38px;
+	 display: inline-block;
+	 margin-left: 12px;
+	 margin-top: 5px;
+	 border: 1px solid #BDBDBD;
+	 border-radius: 50%;
+	background: url(../images/aaa.png) no-repeat -1px -1px;
+}
+
+.links .bbb{
+	width: 38px;
+	 height: 38px;
+	 display: inline-block;
+	 margin-left: 12px;
+	 margin-top: 5px;
+	 border: 1px solid #BDBDBD;
+	 border-radius: 50%;
+	background: url(../images/abc1.png) no-repeat -54px -15px;
+}
+.links .ccc{
+	width: 38px;
+	 height: 38px;
+	 display: inline-block;
+	 margin-left: 12px;
+	 margin-top: 5px;
+	 border: 1px solid #BDBDBD;
+	 border-radius: 50%;
+	background: url(../images/abc1.png) no-repeat -13px -238px;
+}
+.links .ddd{
+	width: 38px;
+	 height: 38px;
+	 display: inline-block;
+	 margin-left: 12px;
+	 margin-top: 5px;
+	 border: 1px solid #BDBDBD;
+	 border-radius: 50%;
+	background: url(../images/abc1.png) no-repeat -54px -103px;
+}
+
+.white{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.white img{
+	height: 100px;
+	width: 154px;
+}
+/* 结尾部分开始 */
+.footer {
+	height: 53px;
+	line-height: 53px;
+	 text-align: center;
+	 background: url(../images/footer.png)
+}
+
+.footer .left {
+	 float: left;
+	 margin-left: 10px;
+}
+
+.footer .right{
+	float: right;
+	margin-right: 10px;
+}
+
+.footer p, a{
+	color: #FCFCFC;
+}

@@ -1,0 +1,240 @@
+﻿/* 导航栏 */
+.xtop-nav {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f29c9f;
+}
+
+/* 左边 */
+.xtop_left ul li {
+    margin-left: 15px;
+    float: left;
+}
+
+.xtop_left ul li span {
+    height: 20px;
+    width: 20px;
+    background: url()
+}
+
+/* 右侧 */
+.xtop-right ul li {
+    margin-left: 15px;
+    float: left;
+}
+
+/* logo栏 */
+.xtop-logo {
+    height: 130px;
+    /* border:1px solid rebeccapurple; */
+}
+
+/* 左边 */
+.xlogo-left a img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.xlogo-left h1 {
+    color: #000;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.xlogo-left .liner {
+    display: block;
+    height: 40px;
+    width: 1px;
+    background-color: gray;
+    margin: 38px 10px;
+}
+
+.xlogo-left .x-assess {
+    margin-top: 37px;
+}
+
+.xlogo-left .x-assess li {
+    float: left;
+    margin-left: 10px;
+    font-size: 20px;
+    color: brown;
+}
+
+.xlogo-left .x-assess li:first-child {
+    margin-left: 0px;
+}
+
+.two-ma {
+    margin-top: 40px;
+}
+
+/* 右边 */
+.xtxt-rigth {
+    height: 40px;
+    width: 340px;
+    margin-right: 20px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.xtxt-rigth .txt {
+    border: 2px solid #f29c9f;
+    height: 40px;
+    line-height: 44px;
+    width: 270px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.xtxt-rigth .btn {
+    width: 70px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #f29c9f;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* 头部开始 */
+.x_head {
+    height: 150px;
+    background-color: brown;
+    padding-top: 10px;
+}
+
+.x_head .w .xbox-logo {
+    text-align: center;
+}
+
+.x_head .x_list {
+    margin-top: 25px;
+}
+
+.x_head .x_list li {
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 40px;
+    line-height: 57px;
+}
+
+.x_head .x_list li a {
+    color: #fff;
+}
+
+.x_head .x_list li:last-child {
+    line-height: 0px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.text_li {
+    height: 20px;
+    width: 90px;
+    border: 1px solid #fff;
+    background-color: brown;
+
+}
+
+
+/* 轮播图主图部分 */
+.banner {
+    margin: 0 auto;
+    position: relative;
+    height: 717px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner .content ul {
+    width: 6560px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.banner .content li {
+    float: left;
+    position: relative;
+}
+
+.banner .content li video {
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    height: 500px;
+    width: 890px;
+}
+
+/* 长方块 */
+.control {
+    width: 300px;
+    height: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 500px;
+}
+
+.control a {
+    float: left;
+    height: 10px;
+    width: 70px;
+    margin-left: 30px;
+    background-color: gray;
+}
+
+.banner .control a.active {
+    background: brown;
+}
+
+/* 主图部分 */
+.banner .content ul li img {
+    margin-left: -280px;
+}
+
+/* 视频播放区 */
+.xu_verdio {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.xu_verdio img {
+    margin-left: -280px;
+}
+
+.xu_verdio video {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    height: 570px;
+    width: 990px;
+}
+
+/* 高亮显示区 */
+.xline-heigth {
+    overflow: hidden;
+}
+.xline-heigth>img {
+    margin-top: 10px;
+    margin-left: -280px;
+
+}
+
+.light-box ul li {
+    float: left;
+    position: relative;
+}
+
+.light-box ul li .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    opacity: 0;
+}

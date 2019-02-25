@@ -1,0 +1,35 @@
+/* 头部开始 */
+.header {
+  height: 140px;
+  width: 100%;
+  background-color: #5e0025;
+  padding-top: 10px;
+}
+.header_top {
+  height: 90px;
+}
+.home img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.header_nav {
+  height: 50px;
+  line-height: 50px;
+  background-color: #e9d3a4;
+  overflow: hidden;
+}
+.header_nav li {
+  text-align: center;
+  font-size: 1.1em;
+  margin-left: 5em;
+  float: left;
+}
+.header_nav li a {
+  color: #5e0025;
+  
+}
+.header_nav li img {
+  vertical-align: center;
+  margin-top: 25px;
+}
